@@ -1,0 +1,51 @@
+ #contenedor {
+   justify-content: center;
+ }
+
+ #titulo {
+   font-family: 'Rufina', serif;
+   size: 90PX;
+ }
+
+ .h2-lines {
+   display: inline-block;
+   position: relative;
+   left: 5rem;
+ }
+
+ .h2-lines::after,
+ .h2-lines::before {
+   content: "";
+   position: absolute;
+   width: 4.2rem;
+   height: .15rem;
+   background-color: rgb(186, 104, 200);
+   top: 1.3rem;
+ }
+
+ .h2-lines::before {
+   left: -5rem;
+ }
+
+ .h2-lines::after {
+   right: -5rem;
+ }
+
+ .card {
+   text-align: start;
+ }
+
+ .card .card-title {
+   font-family: 'Rufina', serif;
+   size: 50px;
+ }
+
+
+ .card .card-body {
+   font-family: 'Quattrocento', serif;
+ }
+
+ #img {
+   max-width: 12rem;
+   position: relative;
+ }

@@ -1,0 +1,48 @@
+<nav class="navbar navbar-light bg fixed-top" id="nav">
+    <!--Logo-->
+    <div  >
+        <a class="navbar-brand" id="logo" href="#">
+            <img src="../../../assets/img/APLogo.png" alt="APLogo" width="150px">
+        </a>
+    </div>
+    <!--Fin logo-->
+
+    <!--btn hamburguesa-->
+    <div>
+        <div class="container-fluid">
+            <button  class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon" id="btnHamb"></span>
+            </button>            
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+              <!--btn 'x'-->  
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+
+                <!--cuerpo hamburguesa-->
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-1" id="cuerpo">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./components/sobre-mi/sobre-mi.component">Sobre mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Estudios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
