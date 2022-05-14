@@ -1,8 +1,4 @@
- #contenedor {
-   justify-content: center;
- }
-
- #titulo {
+#titulo {
    font-family: 'Rufina', serif;
    size: 90PX;
  }
