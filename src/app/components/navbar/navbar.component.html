@@ -13,32 +13,34 @@
             <button  class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon" id="btnHamb"></span>
-            </button>            
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-
-              <!--btn 'x'-->  
+            </button>    
+            <!--btn 'x'-->         
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">           
                 <div class="offcanvas-header">
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
 
                 <!--cuerpo hamburguesa-->
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-1" id="cuerpo">
+                <div class="offcanvas-body text-center" >
+                    <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./components/sobre-mi/sobre-mi.component">Sobre mí</a>
+                            <a class="nav-link" routerLink="#" routerLinkActive="router-link-active">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Estudios</a>
+                            <a class="nav-link" routerLink="/sobre-mi" routerLinkActive="router-link-active">Sobre mí</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link" routerLink="/educacion" routerLinkActive="router-link-active">Educación</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                            <a class="nav-link" routerLink="/tecnologias"  routerLinkActive="router-link-active">Tecnologías</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                            <a class="nav-link" routerLink="/proyectos"  routerLinkActive="router-link-active">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="/contacto"  routerLinkActive="router-link-active">Contacto</a>
                         </li>
                     </ul>
                 </div>
